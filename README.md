@@ -2,7 +2,7 @@
 
 <h1>🗺️ Fable Travel</h1>
 
-<p>这个skill,让你一句话，生成一份能直接出发的旅游skill</p>
+<p align="center">这个skill,让你一句话，生成一份能直接出发的旅游攻略</p>
 
 <p>
   <img src="https://img.shields.io/badge/旅行研究-fable--travel-34A853?style=flat-square" alt="fable-travel">
@@ -20,10 +20,10 @@
 
 想去一个城市：打开小红书刷 2 小时，收藏 30 篇笔记，然后忘了收藏在哪。打开点评看看餐厅评分，再去豆瓣找深度内容，去携程看酒店位置——信息散落在 6 个平台，没有一份能装进口袋的行程。
 
-Fable Travel 就是来解决这个问题的。输入"西安 4 天"或者"洛阳周末两天"，3 个 AI Agent 同时开工——一个挖博物馆和考古发现，一个找本地人常去的街区和咖啡馆，一个筛真正好吃的店和有质量的深度内容——然后按地理位置合成路线，再自动生成一份 Markdown 文档和两张便携 PNG 卡片。
+Fable Travel 就是来解决这个头疼事的。你只需输入“西安 4 天”或“洛阳周末2天”，背后的 3 个 AI 小助手便会同时忙活起来——一个专挖博物馆和考古发现，一个钻进本地人爱逛的街区和咖啡馆，一个火眼金睛地筛出真正好吃的店和有深度的好内容。接着，你就获得了清晰的旅游攻略，外加两张轻便、随手就能存图分享的 旅游卡片.png。
 
 **整个过程你只说一句话，其余是 AI 的事。**
-
+![alt text](合肥旅行研究_路线速查.png)
 ---
 
 
@@ -111,29 +111,6 @@ cd ..
 
 ---
 
-
-## 项目结构
-
-```text
-fable-travel/                 # 旅行研究技能（核心）
-├── skill.md                  # 技能定义（含触发词、执行策略、输出 schema）
-└── problem.md                # 内部审查记录
-
-fable-card/                   # 图片铸造技能（辅助产出）
-├── SKILL.md                  # 技能定义
-├── generate-card.js          # 卡片生成入口
-├── assets/
-│   ├── capture.js            # Playwright 截图工具
-│   ├── long_template.html    # 长图模板
-│   └── infograph_template.html  # 信息图模板
-└── references/
-    ├── taste.md              # 视觉品味准则
-    ├── mode-long.md          # 长图模具规范
-    └── mode-infograph.md     # 信息图模具规范
-
-.mcp.json                     # Tavily MCP 配置
-README.md                     # 本文件
-```
 
 ---
 
