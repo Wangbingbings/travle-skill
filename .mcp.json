@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "tavily": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "mcp-remote",
+        "https://mcp.tavily.com/mcp",
+        "--header",
+        "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL21jcC50YXZpbHkuY29tLyIsImF1ZCI6Imh0dHBzOi8vbWNwLnRhdmlseS5jb20vbWNwIiwiY2xpZW50X2lkIjoiaHR0cHM6Ly9jbGF1ZGUuYWkvb2F1dGgvY2xhdWRlLWNvZGUtY2xpZW50LW1ldGFkYXRhIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MiLCJleHAiOjE3NzkzNjEzMjAsImlhdCI6MTc3OTI3NDkyMCwianRpIjoianJSbmZod0FDMWRTOEE4TUdqU1doenRuY3NrRGdFTjhIYVNYc0FZS3NIbyJ9.gjdVzk0AbOv_hqGsG5O2RMPg2nZIrTLuQiAJK33fzFo"
+      ]
+    }
+  }
+}

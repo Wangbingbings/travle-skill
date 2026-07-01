@@ -1,0 +1,19 @@
+# Dependencies
+fable-card/node_modules/
+
+# Generated output images
+*.png
+!**/assets/*.png
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Editor temp files
+*~
+*.swp
+*.swo
